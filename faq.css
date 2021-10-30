@@ -60,10 +60,11 @@ html,body{
     margin: 0 10px 0 0;
     width: 30px;
     height: 30px;
-    background: url(./images/icons8-plus-+-24.png) no-repeat 8px 7px #d32737;
+    background: url() no-repeat 8px 7px #d32737 ;
     border-radius: 50%;
     float: left;
     transition: all .5s ease-in;
+    padding: 3px;
 }
 
 .accordion h5{
