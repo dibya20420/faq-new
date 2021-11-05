@@ -12,10 +12,12 @@ for(i=0;i<len;i++){
         }
     })
 }
+// for(let j=0;j<len;j++){
+//     document.getElementsByClassName("accordion")[j].addEventListener('click',change);
 
-document.getElementsByClassName("accordion").addEventListener('click',change);
+// function change(){
+//     let img = document.getElementsByClassName('sign')[j];
+//     img.src = "./images/icons8-minus-sign-24.png";
+// }
+// }
 
-function change(){
-    let img = document.getElementsByClassName('sign');
-    img.src = "./images/icons8-minus-sign-24";
-}
