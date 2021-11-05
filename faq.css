@@ -23,6 +23,7 @@ html,body{
     margin-bottom: 0%;
     font-weight: 800;
     margin-left:2%
+    
 }
 .container-fluid{
     margin-top: 4%;
@@ -58,13 +59,13 @@ html,body{
 }
 .accordion .icon{
     margin: 0 10px 0 0;
-    width: 30px;
-    height: 30px;
+    width:20px;
+    height: 20px;
     background: url() no-repeat 8px 7px #d32737 ;
     border-radius: 50%;
     float: left;
     transition: all .5s ease-in;
-    padding: 9px;
+    padding:9px
 }
 
 .accordion h5{
@@ -100,12 +101,43 @@ html,body{
     transition: all .5s ease-in;
 }
 @media only screen and (max-width:320px){
-    #ques1 #ques2 #ques3 #ques4 #ques5 #ques6 #ques7 #ques8{
-        font-size: 12px;
+    h5.ques{
+        font-size: 0.8rem;
+    }
+    div.panel{
+        font-size: 0.6rem;
+    }
+    .heading{
+        padding-top: 30px;
+        font-size: 3rem;
+    }
+    div.accordion{
+        width: 70vw;
+    }
+    .accordion .icon{
+        width: 5px;
+        height: 5px;
+        border-radius: 50%;
+        padding: 8px;
     }
 }
 @media only screen and (min-width:321px) and (max-width:768px){
-    #ques1 #ques2 #ques3 #ques4 #ques5 #ques6 #ques7 #ques8{
-        font-size: 14px;
+    h5.ques{
+        font-size: 1rem;
+    }
+    .heading{
+        font-size: 4rem;
+    }
+    div.panel{
+        font-size: 0.7rem;
+    }
+    div.accordion{
+        width: 70vw;
+    }
+    .accordion .icon{
+        width: 5px;
+        height: 5px;
+        border-radius: 50%;
+        padding: 10px;
     }
 }
